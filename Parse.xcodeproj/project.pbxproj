@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0677EA291C7C561200A41510 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EC57891C34D0C4002DF851 /* Bolts.framework */; };
+		0677EA2A1C7C561200A41510 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970110191630B1FE00AB761E /* Cocoa.framework */; };
+		0677EA2B1C7C561200A41510 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6393F38B15D3018400C4F78D /* libsqlite3.dylib */; };
+		0677EA2C1C7C561200A41510 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DE045B163214C0007154E8 /* SystemConfiguration.framework */; };
+		0677EA2D1C7C561200A41510 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DE045916321492007154E8 /* Security.framework */; };
+		0677EA2E1C7C561200A41510 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DE045016321428007154E8 /* CoreLocation.framework */; };
+		0677EAFD1C7C561200A41510 /* Parse.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E7BE011B82B931007ACDD8 /* Parse.strings */; };
+		0677EAFE1C7C561200A41510 /* third_party_licenses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8139B12C1A7BF559002BEF84 /* third_party_licenses.txt */; };
+		0677EB091C7C56CC00A41510 /* ParseSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 0677EB081C7C56CC00A41510 /* ParseSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0677EB0B1C7C573B00A41510 /* ClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677EB0A1C7C573B00A41510 /* ClientConfiguration.swift */; };
+		0677EB0C1C7C579000A41510 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677EB041C7C565000A41510 /* Client.swift */; };
+		0677EB0F1C7C592C00A41510 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97010FAC1630B18F00AB761E /* Parse.framework */; };
+		0677EB101C7C596100A41510 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677EB061C7C56B100A41510 /* Object.swift */; };
 		7CBC8DA116D594F800AEC66D /* PFTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF213BB16D41D980065CF1A /* PFTaskQueue.m */; };
 		8101550A1BB3832700D7C7BD /* PFWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C1EE481AE1EF960031C438 /* PFWeakValue.m */; };
 		8101550B1BB3832700D7C7BD /* PFUserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BCDF01B4DF63600007B7F /* PFUserState.m */; };
@@ -2691,6 +2704,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0677E9941C7C561200A41510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81EC57761C34D0C4002DF851 /* Bolts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EDDA62817E17DDC00655F8A;
+			remoteInfo = "Bolts-OSX";
+		};
+		0677EB0D1C7C592700A41510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09D33641139C54930098E916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97010FAB1630B18F00AB761E;
+			remoteInfo = "Parse-OSX";
+		};
 		81101B321C34D1AC00AA3734 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 81EC57761C34D0C4002DF851 /* Bolts.xcodeproj */;
@@ -2920,6 +2947,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0677EB021C7C561200A41510 /* ParseSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParseSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0677EB041C7C565000A41510 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		0677EB061C7C56B100A41510 /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		0677EB081C7C56CC00A41510 /* ParseSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseSwift.h; sourceTree = "<group>"; };
+		0677EB0A1C7C573B00A41510 /* ClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientConfiguration.swift; sourceTree = "<group>"; };
+		0677EB111C7C59E900A41510 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		0677EB121C7C5DF900A41510 /* ParseSwift.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ParseSwift.xcconfig; sourceTree = "<group>"; };
 		0925ABEB13D791770095FEFA /* PFConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFConstants.h; sourceTree = "<group>"; };
 		0925ABEC13D791770095FEFA /* PFConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFConstants.m; sourceTree = "<group>"; };
 		0925ABED13D791770095FEFA /* PFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFObject.h; sourceTree = "<group>"; };
@@ -3505,6 +3539,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0677EA281C7C561200A41510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0677EB0F1C7C592C00A41510 /* Parse.framework in Frameworks */,
+				0677EA291C7C561200A41510 /* Bolts.framework in Frameworks */,
+				0677EA2A1C7C561200A41510 /* Cocoa.framework in Frameworks */,
+				0677EA2B1C7C561200A41510 /* libsqlite3.dylib in Frameworks */,
+				0677EA2C1C7C561200A41510 /* SystemConfiguration.framework in Frameworks */,
+				0677EA2D1C7C561200A41510 /* Security.framework in Frameworks */,
+				0677EA2E1C7C561200A41510 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8101559D1BB3832700D7C7BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3611,11 +3659,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0677E9861C7C560E00A41510 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0677E9871C7C560E00A41510 /* Internal */,
+				0677EB041C7C565000A41510 /* Client.swift */,
+				0677EB0A1C7C573B00A41510 /* ClientConfiguration.swift */,
+				0677EB081C7C56CC00A41510 /* ParseSwift.h */,
+				0677EB061C7C56B100A41510 /* Object.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		0677E9871C7C560E00A41510 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
 		0925ABB613D791770095FEFA /* Parse */ = {
 			isa = PBXGroup;
 			children = (
 				09809FAE1434F98C00EC3E74 /* Internal */,
 				09809FB81434F98C00EC3E74 /* Resources */,
+				0677E9861C7C560E00A41510 /* Swift */,
 				09EEA12D1434FB1F00E3A3FA /* Parse.h */,
 				09EEA12E1434FB1F00E3A3FA /* Parse.m */,
 				F5B64D891BFA646C0038F3CB /* ParseClientConfiguration.h */,
@@ -3767,6 +3835,7 @@
 		09809FB81434F98C00EC3E74 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0677EB111C7C59E900A41510 /* module.modulemap */,
 				09809FB91434F98C00EC3E74 /* Parse-iOS.Info.plist */,
 				97AA93B816780B7600445C2D /* Parse-OSX.Info.plist */,
 				812F31DD1BCF3F7000FCBCD4 /* Parse-watchOS.Info.plist */,
@@ -3812,6 +3881,7 @@
 				81C5845D1C3B0A98000063C6 /* Parse.framework */,
 				81C585BF1C3B0AA1000063C6 /* Parse.framework */,
 				81C5870F1C3B0AA9000063C6 /* Parse.framework */,
+				0677EB021C7C561200A41510 /* ParseSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -5077,6 +5147,7 @@
 		F55ABB501B4F39DA00A0ECD5 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
+				0677EB121C7C5DF900A41510 /* ParseSwift.xcconfig */,
 				F55ABB531B4F39DA00A0ECD5 /* Parse-iOS.xcconfig */,
 				81C582DE1C3B0A40000063C6 /* Parse-iOS-Dynamic.xcconfig */,
 				F55ABB541B4F39DA00A0ECD5 /* Parse-OSX.xcconfig */,
@@ -5194,6 +5265,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0677EA2F1C7C561200A41510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0677EB091C7C56CC00A41510 /* ParseSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8101559E1BB3832700D7C7BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -6654,6 +6733,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0677E9921C7C561200A41510 /* ParseSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0677EAFF1C7C561200A41510 /* Build configuration list for PBXNativeTarget "ParseSwift" */;
+			buildPhases = (
+				0677E9951C7C561200A41510 /* Generate Localizable Strings */,
+				0677E9961C7C561200A41510 /* Sources */,
+				0677EA281C7C561200A41510 /* Frameworks */,
+				0677EA2F1C7C561200A41510 /* Headers */,
+				0677EAFC1C7C561200A41510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0677EB0E1C7C592700A41510 /* PBXTargetDependency */,
+				0677E9931C7C561200A41510 /* PBXTargetDependency */,
+			);
+			name = ParseSwift;
+			productName = ParseMac;
+			productReference = 0677EB021C7C561200A41510 /* ParseSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		810155051BB3832700D7C7BD /* Parse-watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 810156661BB3832700D7C7BD /* Build configuration list for PBXNativeTarget "Parse-watchOS" */;
@@ -6842,7 +6942,7 @@
 		09D33641139C54930098E916 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Parse Inc.";
 				TargetAttributes = {
@@ -6883,6 +6983,7 @@
 				81C5845F1C3B0AA1000063C6 /* Parse-tvOS-Dynamic */,
 				810155051BB3832700D7C7BD /* Parse-watchOS */,
 				81C585C11C3B0AA9000063C6 /* Parse-watchOS-Dynamic */,
+				0677E9921C7C561200A41510 /* ParseSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -7003,6 +7104,15 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0677EAFC1C7C561200A41510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0677EAFD1C7C561200A41510 /* Parse.strings in Resources */,
+				0677EAFE1C7C561200A41510 /* third_party_licenses.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		810156631BB3832700D7C7BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -7083,6 +7193,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0677E9951C7C561200A41510 /* Generate Localizable Strings */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Localizable Strings";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Generate localizable strings\nfind $PROJECT_DIR/Parse -name '*.m' -print0 | xargs -0 xcrun extractLocStrings -q -o $PROJECT_DIR/Parse/Resources/en.lproj\n";
+		};
 		810155081BB3832700D7C7BD /* Generate Localizable Strings */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -7184,6 +7308,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0677E9961C7C561200A41510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0677EB0C1C7C579000A41510 /* Client.swift in Sources */,
+				0677EB101C7C596100A41510 /* Object.swift in Sources */,
+				0677EB0B1C7C573B00A41510 /* ClientConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		810155091BB3832700D7C7BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8469,6 +8603,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0677E9931C7C561200A41510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bolts-OSX";
+			targetProxy = 0677E9941C7C561200A41510 /* PBXContainerItemProxy */;
+		};
+		0677EB0E1C7C592700A41510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97010FAB1630B18F00AB761E /* Parse-OSX */;
+			targetProxy = 0677EB0D1C7C592700A41510 /* PBXContainerItemProxy */;
+		};
 		81101B331C34D1AC00AA3734 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Bolts-OSX";
@@ -8548,6 +8692,20 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0677EB001C7C561200A41510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0677EB121C7C5DF900A41510 /* ParseSwift.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0677EB011C7C561200A41510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0677EB121C7C5DF900A41510 /* ParseSwift.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
 		09D3366B139C54940098E916 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F55ABB671B4F39DA00A0ECD5 /* Debug.xcconfig */;
@@ -8691,6 +8849,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0677EAFF1C7C561200A41510 /* Build configuration list for PBXNativeTarget "ParseSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0677EB001C7C561200A41510 /* Debug */,
+				0677EB011C7C561200A41510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		09D33644139C54930098E916 /* Build configuration list for PBXProject "Parse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
